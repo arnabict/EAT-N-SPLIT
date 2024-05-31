@@ -1,6 +1,6 @@
-# SplitIt Web App
+# Eat-N-Split Web App
 
-SplitIt is a web application built using React.js that simplifies the process of splitting bills among friends. With SplitIt, you can easily keep track of how much you owe your friends or how much they owe you.
+Eat-N-Split is a web application built using React.js that simplifies the process of splitting bills among friends. With Eat-N-Split, you can easily keep track of how much you owe your friends or how much they owe you.
 
 ## Features
 
@@ -11,4 +11,4 @@ SplitIt is a web application built using React.js that simplifies the process of
 
 ## Getting Started
 
-To get started with SplitIt, simply clone this repository to your local machine and run `npm install` to install the necessary dependencies. Then, run `npm start` to start the development server.
+To get started with Eat-N-Split, simply clone this repository to your local machine and run `npm install` to install the necessary dependencies. Then, run `npm start` to start the development server.

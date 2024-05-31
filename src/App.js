@@ -61,15 +61,19 @@ export default function App() {
           onSelection={handleSelection}
           selectedFriend={selectedFriend}
         />
+
         {showAddFriend && <FormAddFriend onAddFriend={handleAddFriend} />}
+
         <Button onClick={handleShowAddFriend}>
           {showAddFriend ? "Close" : "Add friend"}
         </Button>
       </div>
+
       {selectedFriend && (
         <FormSplitBill
           selectedFriend={selectedFriend}
           onSplitBill={handleSplitBill}
+          key={selectedFriend.id}
         />
       )}
     </div>
@@ -161,7 +165,7 @@ function FormAddFriend({ onAddFriend }) {
         onChange={(e) => setName(e.target.value)}
       />
 
-      <label>🌆Image URL:</label>
+      <label>📸Image URL:</label>
       <input
         type="text"
         value={image}
